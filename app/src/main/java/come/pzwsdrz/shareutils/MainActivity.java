@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -14,6 +15,7 @@ public class MainActivity extends Activity {
     }
 
     public  void share(View view){
+        Toast.makeText(MainActivity.this,"222222",Toast.LENGTH_SHORT).show();
 
     }
 }
